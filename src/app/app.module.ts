@@ -12,17 +12,24 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/modal/register/register.component';
 
+import { FormsModule } from '@angular/forms';
+import { ChartsModule } from 'ng2-charts';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     RegisterComponent,
-   
+    
+    
   ],
   imports: [
     BrowserModule,
     APP_ROUTES,
     PagesModule,
+    FormsModule,  
     
   ],
  

@@ -1,1 +1,66 @@
-<p>graphic works!</p>
+<div class="row">
+  <div class="col-6">
+    <div class="card">
+      <div class="card-body">
+        <div>
+          <div>
+            <h4 class="card-title">{{graphic.graphic1.leyenda}}</h4>
+           <app-graphicDonates
+            [chartLabels]="graphic.graphic1.labels"
+            [chartData]="graphic.graphic1.data"
+            [chartType]="graphic.graphic1.type">
+           </app-graphicDonates>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="card">
+      <div class="card-body">
+        <div>
+          <div>
+            <h4 class="card-title">{{graphic.graphic2.leyenda}}</h4>
+            <app-graphicDonates
+             [chartLabels]="graphic.graphic2.labels"
+             [chartData]="graphic.graphic2.data"
+             [chartType]="graphic.graphic2.type">
+            </app-graphicDonates>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="card">
+      <div class="card-body">
+        <div>
+          <div>
+            <h4 class="card-title">{{graphic.graphic3.leyenda}}</h4>
+           <app-graphicDonates
+            [chartLabels]="graphic.graphic3.labels"
+            [chartData]="graphic.graphic3.data"
+            [chartType]="graphic.graphic3.type">
+           </app-graphicDonates>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="card">
+      <div class="card-body">
+        <div>
+          <div>
+            <h4 class="card-title">{{graphic.graphic4.leyenda}}</h4>
+            <app-graphicDonates
+             [chartLabels]="graphic.graphic4.labels"
+             [chartData]="graphic.graphic4.data"
+             [chartType]="graphic.graphic4.type">
+            </app-graphicDonates>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
