@@ -4,6 +4,7 @@ import { PagesComponent} from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { GraphicComponent } from './graphic/graphic.component';
+import { AccoutSettingComponent } from './accout-setting/accout-setting.component';
 
 const pagesRoutes: Routes= [
     {
@@ -13,6 +14,7 @@ const pagesRoutes: Routes= [
             { path: 'dashboard', component: DashboardComponent },
             { path: 'graphic', component: GraphicComponent },
             { path: 'progress', component: ProgressComponent },
+            { path: 'accoutSetting', component: AccoutSettingComponent },
             { path: '',redirectTo: '/dashboard',pathMatch: 'full' },
         ]
 

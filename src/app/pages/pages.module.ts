@@ -11,6 +11,7 @@ import { AumentaComponent } from '../components/aumenta/aumenta.component';
 //Graficas 
 import { ChartsModule } from 'ng2-charts';
 import { GraphicDonatesComponent } from '../components/graphicDonates/graphicDonates.component';
+import { AccoutSettingComponent } from './accout-setting/accout-setting.component';
 
 
 
@@ -21,7 +22,9 @@ import { GraphicDonatesComponent } from '../components/graphicDonates/graphicDon
         ProgressComponent,
         GraphicComponent,
         AumentaComponent,
-        GraphicDonatesComponent
+        GraphicDonatesComponent,
+        AccoutSettingComponent,
+
     ],
     exports: [
         PagesComponent,
